@@ -1,0 +1,89 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Latitude Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/"><span class="latitude">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <ul class="nav">
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                    <span class="caret"></span></button> 
+                    <ul class="dropdown-menu">
+                        <li><a href="./max-temperature.html">Latitude vs. Max Temperature</a></li>
+                        <li><a href="./humidity.html">Latitude vs. Humidity</a></li>
+                        <li><a href="./cloudiness.html">Latitude vs. Cloudiness</a></li>
+                        <li><a href="./wind-speed.html">Latitude vs. Wind Speed</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="nav-link" href="./Comparisons.html"><span class="c-d">Comparison</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./Data.html"><span class="c-d">Data</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="box">
+                    <div class="page-header">
+                        <h1 class="title">Latitude vs. Max Temperature</h1>
+                    </div>
+                    <div class="box" style="display: flex; flex-direction: column">
+                        <img src="/assets/img/LatVSTemp.png" alt="Latitude vs. Max Temperature" height="280" width="280" align="left">
+                        <p class="category"> I found there to be a correlation between latitude and temperature. As the latitude approches 0, the temperature rises. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="box" >
+                    <div class="page-header">
+                        <h1 class="title">Visualizations</h1>
+                    </div>
+                    <div class="box">
+                       <a href=""><img src=/assets/img/LatVSTemp.png alt="Latitude vs. Max Temperature" height="160" width="160"></a>
+                       <a href=""><img src="/assets/img/LatVSHum.png"alt="Latitude vs. Humidity" height="160" width="160"></a>
+                       <a href=""><img src="/assets/img/LatVSCloud.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                       <a href=""><img src="/assets/img/LatVSWind.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
